@@ -1,0 +1,30 @@
+.fieldLoader {
+    height: 64px;
+    width: 40%;
+    margin: 0 auto;
+    border: 1px dashed #9f80f9;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+  }
+  
+  .labelBox {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+  
+  .label {
+    color: #6f52c1;
+    font-weight: 400;
+  }
+  
+  .input {
+    display: none;
+  }
+  
