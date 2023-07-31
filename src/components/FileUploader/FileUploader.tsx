@@ -29,6 +29,7 @@ const FileUploader: React.FC = () => {
     console.log(fileUrls)
     
     const fileUrlsPromises = fileUrls.map((url, index) => {
+      if (fileUrls.length > 100 && index > 100) return alert ('Максимальное количество файлов 100');
       return uploadFile(url, files[index])
     })
 
